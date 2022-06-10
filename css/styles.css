@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-item img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    box-shadow:1px 1px 6px #333, 0 0 20px #333 inset;
+}
+
+.main-item img:hover {
+    transform: scale(1.1);
+    transition: 0.2ms;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#odinrecipes-logo {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#odin-logo {
+    width: 160px;
+    height: 52px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 35px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer p {
+    font-size: 19px;
+    text-decoration: none;
+}
