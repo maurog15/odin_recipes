@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Shadows Into Light', cursive;
@@ -13,6 +14,7 @@ h1, h2 {
 p {
     font-family: 'Abel', sans-serif;
     font-size: 25px;
+    margin-top: 15px;
 }
 
 .container {
@@ -26,7 +28,6 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 .main-item img {
@@ -37,39 +38,103 @@ p {
 }
 
 .main-item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.2ms;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
-    color: black;
 }
 
 #odinrecipes-logo {
     width: 300px;
     height: 100px;
-    margin: auto;
-    display: block;
-}
-
-#odin-logo {
-    width: 160px;
-    height: 52px;
-}
-
-nav {
-    margin-top: 10px;
+    margin: 0 auto;
 }
 
 footer {
+    width: 350px;
+    height: 113px;
     margin-top: 35px;
     text-align: center;
-    border: 1px solid black;
+    border: 2.5px dotted black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
 }
 
 footer p {
     font-size: 19px;
     text-decoration: none;
+}
+
+footer img {
+    width: 160px;
+    height: 52px;
+}
+
+#content-flex {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left-box {
+    width: 65%;
+    text-align: center;
+}
+
+.right-box {
+    width: 35%;
+    background-color: #ffcb6b;
+    border-radius: 2%;
+    padding-left: 10px;
+    padding-top: 5px
+}   
+
+#food-image {
+    width: 90%;
+    border-radius: 2%;
+    height: 500px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    font-family: 'Abel', sans-serif;
+    text-transform:  uppercase;
+    font-size: 35px;
+}
+
+h3 {
+    margin-top:0;
+    margin-bottom: 0px;
+    font-family: 'Abel', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.bottom-box {
+    font-family: 'Abel', sans-serif;
+    font-size: 21px;
+    margin-left: 65px;
+    margin-right: 10px;
+    padding-top: 15px;
+}
+
+ol {
+    padding-left: 25px;
+    margin-top: 0;
 }
